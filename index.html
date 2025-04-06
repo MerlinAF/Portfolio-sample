@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Merlin - Portfolio</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .about,
+        .portfolio,
+        .contact {
+            margin-bottom: 40px;
+        }
+
+        .portfolio-images {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .portfolio-images img {
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .contact input,
+        .contact textarea {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        .contact button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header with background image -->
+    <header>
+        <h1>Welcome to Merlin's Portfolio</h1>
+    </header>
+
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- photo section -->
+    <div class="about-me">
+
+
+
+
+
+    </div>
+
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Home Section -->
+        <section id="home" class="home">
+            <h1>Home</h1>
+            <img src="/images/merlin.jpg" width=500; height=500; alt="merlin">
+        </section>
+        <br> <br>
+        <section id="about" class="about">
+            <h1>About Me</h1>
+            <p style="color:rgb(14, 14, 22)">
+                Hello! I'm Merlin, a passionate web developer and designer with a love for creating beautiful and
+                functional websites. I have experience in HTML, CSS, JavaScript, and more. When I'm not coding, I enjoy
+                flower arrangement and vegetable gardening.
+            </p> <br>
+        </section>
+        <br> <br>
+
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio">
+            <h1 style="font-family:'sans-serif'">My Work</h1>
+            <div class="portfolio-images">
+                <div>
+                    <img src="/images/image1.jpg" alt="Project 1">
+                    <p>Project 1</p>
+
+                </div>
+                <div>
+                    <img src="/images/image2.jpg" alt="Project 2">
+                    <p>Project 2</p>
+                </div>
+                <div>
+                    <img src="/images/image3.jpg" alt="Project 3">
+                    <p>Project 3</p>
+                </div>
+            </div>
+        </section> <br> <br> <br> <br>
+
+        <!-- Contact form start-->
+        <main>
+            <section id="contact" class="contact">
+                <h2>Contact Me</h2>
+           
+                <div>
+                    <label for="name">Your Name : </label>
+                    <input type="text" placeholder="Enter your name" id="name" name="name" required>
+                </div>
+                <br> <br>
+                <div>
+                    <label for="email">Your Email: </label>
+                    <input type="email" placeholder="Enter your email id" id="email" name="email" required>
+                </div>
+                <br> <br>
+                <div>
+                    <label for="subject">Subject: </label>
+                    <input type="text" placeholder="Enter your subject" id="subject" name="subject" required>
+                </div>
+                <br> <br>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" placeholder="Write your message briefly" name="message" rows="3"
+                        required></textarea>
+                </div>
+                <br> <br>
+
+                <button type="submit">submit</button>
+                <button type="reset">reset</button>
+                
+            </section>
+        </main>
+    
+        <!-- Contact form end-->
+         
+        <!--footer start-->
+        <hr>
+        <footer>
+            <a href="#home">Back to top</a>
+            <p>&copy; 2025 Merlin Portfoilo. All Rights Reserved.</p>
+        </footer>
+        </head>
+</body>
+
+</html>
